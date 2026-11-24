@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calcul du coût du rechargement, avec une fiche à imprimer | AIMONX</title>
+<meta name="description" content="Combien vous coûte vraiment une cartouche rechargée ? Saisissez le prix de vos étuis, amorces, ogives et poudre, voyez le coût par cartouche et imprimez la fiche de votre recette. Gratuit, sans inscription.">
+<link rel="canonical" href="https://aimonx.app/fr/reloading-cost-calculator/">
+<link rel="alternate" hreflang="en-US" href="https://aimonx.app/reloading-cost-calculator/">
+<link rel="alternate" hreflang="it" href="https://aimonx.app/it/reloading-cost-calculator/">
+<link rel="alternate" hreflang="fr" href="https://aimonx.app/fr/reloading-cost-calculator/">
+<link rel="alternate" hreflang="es" href="https://aimonx.app/es/reloading-cost-calculator/">
+<link rel="alternate" hreflang="x-default" href="https://aimonx.app/reloading-cost-calculator/"><meta property="og:type" content="website">
+<meta property="og:site_name" content="AIMONX">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:title" content="Calcul du coût du rechargement, avec une fiche à imprimer | AIMONX">
+<meta property="og:description" content="Combien vous coûte vraiment une cartouche rechargée ? Saisissez le prix de vos étuis, amorces, ogives et poudre, voyez le coût par cartouche et imprimez la fiche de votre recette. Gratuit, sans inscription.">
+<meta property="og:url" content="https://aimonx.app/fr/reloading-cost-calculator/"><meta property="og:image" content="https://aimonx.app/assets/img/condivisione-1200x630.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="AIMONX — the technical logbook app for sport shooters.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image:alt" content="AIMONX — the technical logbook app for sport shooters."><script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://aimonx.app/#sito",
+      "url": "https://aimonx.app/",
+      "name": "AIMONX",
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Person",
+      "@id": "https://aimonx.app/#autore",
+      "name": "Piermichele Fassio"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://aimonx.app/#aimonx",
+      "name": "AIMONX",
+      "url": "https://aimonx.app/",
+      "sameAs": ["https://www.youtube.com/@AIMONXapp","https://www.instagram.com/aimonx.app/"]
+    },{
+      "@type": "WebPage",
+      "@id": "https://aimonx.app/fr/reloading-cost-calculator/#pagina",
+      "url": "https://aimonx.app/fr/reloading-cost-calculator/",
+      "name": "Calcul du coût du rechargement, avec une fiche à imprimer | AIMONX",
+      "description": "Combien vous coûte vraiment une cartouche rechargée ? Saisissez le prix de vos étuis, amorces, ogives et poudre, voyez le coût par cartouche et imprimez la fiche de votre recette. Gratuit, sans inscription.",
+      "isPartOf": { "@id": "https://aimonx.app/#sito" },
+      "about": { "@id": "https://aimonx.app/#app" },
+      "inLanguage": "fr"
+    }
+  ]
+}
+</script>
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/img/aimonx-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/img/aimonx-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/img/aimonx-180.png">
+<meta name="theme-color" content="#0F3625">
+<meta name="apple-itunes-app" content="app-id=6794895643">
+<link rel="stylesheet" href="/assets/css/comune.css?v=f9eab8ff5c">
+<link rel="stylesheet" href="/assets/css/testo.css?v=27b53e0099">
+<script src="/assets/js/menu.js?v=13ae88dd78" defer></script>
+<link rel="stylesheet" href="/assets/css/funzione.css?v=0f10e660a7">
+<link rel="stylesheet" href="/assets/css/strumenti.css?v=31dcd6b568">
+<script src="/assets/js/calcolatori.js?v=f7aa7bcf39" defer></script>
+<noscript><style>.calcolatore { display: none !important; }</style></noscript>
+</head>
+<body class="v-testo v-funzione tinta-verde"><header class="testata">
+<nav class="barra" aria-label="Menu principal">
+  <a class="acasa" href="/fr/">
+    <img class="marchio" src="/assets/img/aimonx-96.png"
+         srcset="/assets/img/aimonx-48.png 1x, /assets/img/aimonx-96.png 2x, /assets/img/aimonx-192.png 3x"
+         alt="Accueil AIMONX" width="36" height="36">
+  </a>
+  <details class="apri">
+    <summary><span class="se-chiuso">Menu</span><span class="se-aperto">Fermer</span></summary>
+  </details>
+  <ul class="voci-barra">
+    <li class="sezione">
+      <details class="tendina"><summary>Fonctionnalités de l'app</summary></details>
+      <div class="pannello"><div class="pannello-dentro">
+        <ul class="gruppo-voci grande">
+  <li class="sez-verde con-segno"><span class="cerchietto"><span class="icona sagoma " style="--sagoma: url('/assets/img/arma-pistola-striker.png')" aria-hidden="true"></span></span><a href="/fr/features/round-count/">Compteur de coups</a></li>
+  <li class="sez-ardesia con-segno"><span class="cerchietto"><svg class="icona " aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M232,96a72,72,0,0,1-100.94,66L79,222.22c-.12.14-.26.29-.39.42a32,32,0,0,1-45.26-45.26c.14-.13.28-.27.43-.39L94,124.94a72.07,72.07,0,0,1,83.54-98.78,8,8,0,0,1,3.93,13.19L144,80l5.66,26.35L176,112l40.65-37.52a8,8,0,0,1,13.19,3.93A72.6,72.6,0,0,1,232,96Z"/></svg></span><a href="/fr/features/maintenance/">Entretien</a></li>
+  <li class="sez-ciano con-segno"><span class="cerchietto"><svg class="icona " aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M56,128a16,16,0,1,1-16-16A16,16,0,0,1,56,128ZM40,48A16,16,0,1,0,56,64,16,16,0,0,0,40,48Zm0,128a16,16,0,1,0,16,16A16,16,0,0,0,40,176Zm176-64H88a8,8,0,0,0-8,8v16a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V120A8,8,0,0,0,216,112Zm0-64H88a8,8,0,0,0-8,8V72a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V56A8,8,0,0,0,216,48Zm0,128H88a8,8,0,0,0-8,8v16a8,8,0,0,0,8,8H216a8,8,0,0,0,8-8V184A8,8,0,0,0,216,176Z"/></svg></span><a href="/fr/features/custom-lists/">Listes personnalisées</a></li>
+  <li class="sez-verde con-segno"><span class="cerchietto"><svg class="icona " aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M208,80H176V56a48,48,0,0,0-96,0V80H48A16,16,0,0,0,32,96V208a16,16,0,0,0,16,16H208a16,16,0,0,0,16-16V96A16,16,0,0,0,208,80Zm-80,84a12,12,0,1,1,12-12A12,12,0,0,1,128,164Zm32-84H96V56a32,32,0,0,1,64,0Z"/></svg></span><a href="/fr/features/privacy-and-security/">Vos données</a></li>
+  <li class="sez-arancioTenue con-segno"><span class="cerchietto"><svg class="icona " aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M239.43,133l-32-80A8,8,0,0,0,200,48a8.27,8.27,0,0,0-1.73.21L136,62V40a8,8,0,0,0-16,0V65.58L54.27,80.21A8,8,0,0,0,48.57,85l-32,80a7.92,7.92,0,0,0-.57,3c0,23.31,24.54,32,40,32s40-8.69,40-32a7.92,7.92,0,0,0-.57-3L66.92,93.77,120,82V208H104a8,8,0,0,0,0,16h48a8,8,0,0,0,0-16H136V78.42L187,67.1,160.57,133a7.92,7.92,0,0,0-.57,3c0,23.31,24.54,32,40,32s40-8.69,40-32A7.92,7.92,0,0,0,239.43,133Zm-160,35H32.62L56,109.54Zm97.24-32L200,77.54,223.38,136Z"/></svg></span><a href="/fr/features/handloads/">Rechargement</a></li>
+  <li class="sez-ciano con-segno"><span class="cerchietto"><svg class="icona " aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"> <!-- Cartuccia sinistra --> <path d="M1.70,10.64 L7.14,10.64 L7.14,19.40 L7.64,19.90 L7.64,20.85 Q7.64,21.40 7.09,21.40 L1.75,21.40 Q1.20,21.40 1.20,20.85 L1.20,19.90 L1.70,19.40 Z" fill="currentColor"/> <path d="M1.70,10.64 C1.70,7.76 2.79,5.49 4.42,5.10 C6.05,5.49 7.14,7.76 7.14,10.64 Z" fill="currentColor"/> <path d="M1.70,10.30 L7.14,10.30 L7.14,10.64 L1.70,10.64 Z" class="solco" fill="#FFFFFF" opacity=".55"/> <!-- Cartuccia centrale, piu alta --> <path d="M9.28,8.99 L14.72,8.99 L14.72,19.40 L15.22,19.90 L15.22,20.85 Q15.22,21.40 14.67,21.40 L9.33,21.40 Q8.78,21.40 8.78,20.85 L8.78,19.90 L9.28,19.40 Z" fill="currentColor"/> <path d="M9.28,8.99 C9.28,5.67 10.37,3.05 12.00,2.60 C13.63,3.05 14.72,5.67 14.72,8.99 Z" fill="currentColor"/> <path d="M9.28,8.65 L14.72,8.65 L14.72,8.99 L9.28,8.99 Z" class="solco" fill="#FFFFFF" opacity=".55"/> <!-- Cartuccia destra --> <path d="M16.86,10.64 L22.30,10.64 L22.30,19.40 L22.80,19.90 L22.80,20.85 Q22.80,21.40 22.25,21.40 L16.91,21.40 Q16.36,21.40 16.36,20.85 L16.36,19.90 L16.86,19.40 Z" fill="currentColor"/> <path d="M16.86,10.64 C16.86,7.76 17.95,5.49 19.58,5.10 C21.21,5.49 22.30,7.76 22.30,10.64 Z" fill="currentColor"/> <path d="M16.86,10.30 L22.30,10.30 L22.30,10.64 L16.86,10.64 Z" class="solco" fill="#FFFFFF" opacity=".55"/></svg></span><a href="/fr/features/ammo-and-costs/">Munitions et coûts</a></li>
+  <li class="sez-blu con-segno"><span class="cerchietto"><svg class="icona " aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M200,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V40A16,16,0,0,0,200,24ZM88,200a12,12,0,1,1,12-12A12,12,0,0,1,88,200Zm0-40a12,12,0,1,1,12-12A12,12,0,0,1,88,160Zm40,40a12,12,0,1,1,12-12A12,12,0,0,1,128,200Zm0-40a12,12,0,1,1,12-12A12,12,0,0,1,128,160Zm40,40a12,12,0,1,1,12-12A12,12,0,0,1,168,200Zm0-40a12,12,0,1,1,12-12A12,12,0,0,1,168,160Zm16-56a8,8,0,0,1-8,8H80a8,8,0,0,1-8-8V64a8,8,0,0,1,8-8h96a8,8,0,0,1,8,8Z"/></svg></span><a href="/fr/features/power-factor-calculator/">Calcul du facteur de puissance</a></li>
+  <li class="sez-blu con-segno"><span class="cerchietto"><svg class="icona " aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M48,120H208a8,8,0,0,0,8-8V88a8,8,0,0,0-2.34-5.66l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40v72A8,8,0,0,0,48,120ZM152,44l44,44H152Zm72,108a8,8,0,0,1-8,8H192v16h16a8,8,0,0,1,0,16H192v16a8,8,0,0,1-16,0V152a8,8,0,0,1,8-8h32A8,8,0,0,1,224,152ZM64,144H48a8,8,0,0,0-8,8v56a8,8,0,0,0,16,0v-8h8a28,28,0,0,0,0-56Zm0,40H56V160h8a12,12,0,0,1,0,24Zm64-40H112a8,8,0,0,0-8,8v56a8,8,0,0,0,8,8h16a36,36,0,0,0,0-72Zm0,56h-8V160h8a20,20,0,0,1,0,40Z"/></svg></span><a href="/fr/features/firearm-records/">Fiches des armes</a></li>
+  <li class="sez-lime con-segno"><span class="cerchietto"><svg class="icona " aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor"><path d="M224,48V168a8,8,0,0,1-2.76,6c-15.28,13.23-29.89,18-43.82,18-18.91,0-36.57-8.74-53-16.85C97.87,162,74.79,150.61,48,171.77V216a8,8,0,0,1-16,0V48a8,8,0,0,1,2.77-6h0c36-31.18,68.31-15.21,96.79-1.12C159,54.46,182.79,66.2,210.76,42A8,8,0,0,1,224,48Z"/></svg></span><a href="/fr/features/range-log/">Journal de tir</a></li>
+        </ul>
+        <ul class="gruppo-voci">
+  <li><a href="/fr/updates/">Nouveautés</a></li>
+  <li><a href="/fr/features/">Toutes les fonctionnalités</a></li>
+        </ul>
+      </div></div>
+    </li>
+    <li class="sezione-link"><a href="/fr/range-system/">Range System</a></li>
+    <li class="sezione">
+      <details class="tendina"><summary>AX Outils et guides</summary></details>
+      <div class="pannello"><div class="pannello-dentro">
+        <ul class="gruppo-voci grande">
+  <li><a href="/fr/features/power-factor-calculator/">Calcul du facteur de puissance</a></li>
+  <li><a href="/fr/reloading-cost-calculator/" aria-current="page">Calcul du coût du rechargement</a></li>
+  <li><a href="/fr/guides/how-to-choose-a-gun-log-app/">Comment choisir une app de journal de tir</a></li>
+        </ul>
+      </div></div>
+    </li>
+    <li class="sezione-link"><a href="/fr/pricing/">Tarifs</a></li>
+    <li class="sezione">
+      <details class="tendina"><summary>Assistance</summary></details>
+      <div class="pannello"><div class="pannello-dentro">
+        <ul class="gruppo-voci grande">
+  <li><a href="/fr/faq/">FAQ</a></li>
+  <li><a href="/fr/support/">Assistance</a></li>
+        </ul>
+        <ul class="gruppo-voci">
+  <li><a href="https://apps.apple.com/fr/app/aimonx/id6794895643?action=write-review" rel="noreferrer">Écrire un avis</a></li>
+  <li><a href="/fr/about/">À propos</a></li>
+        </ul>
+        <ul class="gruppo-voci">
+  <li><a href="/privacy-policy/">Politique de confidentialité (en anglais)</a></li>
+  <li><a href="/terms/">Conditions d'utilisation (en anglais)</a></li>
+        </ul>
+      </div></div>
+    </li>
+    <li class="lingue-voce">
+<nav class="lingue" aria-label="Langue">
+  <details class="tendina-lingue">
+    <summary><span lang="fr">Français</span></summary>
+  </details>
+  <ul class="lingue-voci">
+  <li><a href="/reloading-cost-calculator/" hreflang="en-US" lang="en-US">English</a></li>
+  <li><a href="/it/reloading-cost-calculator/" hreflang="it" lang="it">Italiano</a></li>
+  <li><a href="/fr/reloading-cost-calculator/" hreflang="fr" lang="fr" aria-current="true">Français</a></li>
+  <li><a href="/es/reloading-cost-calculator/" hreflang="es" lang="es">Español</a></li>
+  </ul>
+</nav></li>
+    <li class="scarica-voce"><a class="pulsante" href="https://apps.apple.com/fr/app/aimonx/id6794895643" rel="noreferrer"><img class="icona-app" src="/assets/img/aimonx-48.png" srcset="/assets/img/aimonx-32.png 1x, /assets/img/aimonx-48.png 2x, /assets/img/aimonx-96.png 3x" alt="" width="22" height="22">Download</a></li>
+  </ul>
+</nav>
+</header>
+
+  <div class="apertura">
+    <picture class="banner">
+  <source media="(max-width: 599.98px)" srcset="/assets/img/banner/aimonx-banner-stretto-480.webp 480w, /assets/img/banner/aimonx-banner-stretto-800.webp 800w, /assets/img/banner/aimonx-banner-stretto-1200.webp 1200w" sizes="calc(100vw - 2.2rem)" width="1540" height="380">
+  <img src="/assets/img/banner/aimonx-banner-1280.webp" srcset="/assets/img/banner/aimonx-banner-800.webp 800w, /assets/img/banner/aimonx-banner-1280.webp 1280w, /assets/img/banner/aimonx-banner-2000.webp 2000w" sizes="(min-width: 1140px) 1056px, calc(100vw - 5rem)" width="2560" height="630" alt="">
+</picture>
+
+
+    <div class="titolone">
+      <h1>Calcul du coût du rechargement</h1>
+      <p class="sommario">Combien vous coûte vraiment une cartouche de votre recette ? Saisissez ce que vous avez payé vos composants et votre charge de poudre. Vous voyez le coût par cartouche, par boîte de 50 et pour 1 000, et vous pouvez imprimer la fiche de rechargement ou l'enregistrer en PDF.</p>
+    </div>
+  </div>
+
+  <main id="principale">
+    <article class="foglio">
+      <p>Ce calculateur calcule des coûts, pas des charges. Partez toujours des données de rechargement publiées par les fabricants de poudre et d'ogives.</p>
+      <form class="calcolatore calc-ricarica" data-calcolatore="ricarica" novalidate
+      data-valuta="EUR" data-obbligatorio="Obligatoire." data-maggiore="Doit être supérieur à 0.">
+  <div class="campi scelta-valuta">
+    <div class="campo">
+      <label class="etichetta" for="r-valuta">Devise</label>
+      <select id="r-valuta" name="valuta" data-scelta-valuta autocomplete="off"></select>
+    </div>
+  </div>
+  <div class="campi">
+    <div class="campo largo">
+      <label class="etichetta" for="r-nome">Nom de la recette</label>
+      <input id="r-nome" name="nome" type="text" autocomplete="off" placeholder="Par exemple « 9×19 124 gr match »">
+    </div>
+    <div class="campo">
+      <label class="etichetta" for="r-calibro">Calibre</label>
+      <input id="r-calibro" name="calibro" type="text" autocomplete="off">
+    </div>
+  </div>
+  <fieldset class="componente" data-componente="bossoli">
+    <legend><span>Étuis</span><output data-costo>—</output></legend>
+    <div class="campi">
+      <div class="campo"><label class="etichetta" for="r-b-nome">Étuis (marque/type)</label><input id="r-b-nome" name="b_nome" data-ruolo="nome" type="text" autocomplete="off" placeholder="Description"></div>
+      <div class="campo"><label class="etichetta" for="r-b-prezzo">Prix payé<span class="obbl" aria-hidden="true">*</span></label><div class="con-valuta"><span class="valuta" aria-hidden="true"></span><input id="r-b-prezzo" name="b_prezzo" aria-required="true" data-ruolo="prezzo" type="number" inputmode="decimal" min="0" step="any" autocomplete="off" aria-describedby="r-b-nota"></div><p class="errore" hidden></p></div>
+      <div class="campo"><label class="etichetta" for="r-b-quanti">Quantité<span class="obbl" aria-hidden="true">*</span></label><input id="r-b-quanti" name="b_quanti" aria-required="true" data-ruolo="quanti" type="number" inputmode="numeric" min="0" step="any" autocomplete="off"><p class="errore" hidden></p></div>
+    </div>
+    <p class="nota" id="r-b-nota">Étuis ramassés au stand ? Indiquez 0 comme prix.</p>
+  </fieldset>
+
+  <fieldset class="componente" data-componente="inneschi">
+    <legend><span>Amorces</span><output data-costo>—</output></legend>
+    <div class="campi">
+      <div class="campo"><label class="etichetta" for="r-i-nome">Amorces (marque/type)</label><input id="r-i-nome" name="i_nome" data-ruolo="nome" type="text" autocomplete="off" placeholder="Description"></div>
+      <div class="campo"><label class="etichetta" for="r-i-prezzo">Prix payé<span class="obbl" aria-hidden="true">*</span></label><div class="con-valuta"><span class="valuta" aria-hidden="true"></span><input id="r-i-prezzo" name="i_prezzo" aria-required="true" data-ruolo="prezzo" type="number" inputmode="decimal" min="0" step="any" autocomplete="off"></div><p class="errore" hidden></p></div>
+      <div class="campo"><label class="etichetta" for="r-i-quanti">Quantité<span class="obbl" aria-hidden="true">*</span></label><input id="r-i-quanti" name="i_quanti" aria-required="true" data-ruolo="quanti" type="number" inputmode="numeric" min="0" step="any" autocomplete="off"><p class="errore" hidden></p></div>
+    </div>
+  </fieldset>
+
+  <fieldset class="componente" data-componente="palle">
+    <legend><span>Ogives</span><output data-costo>—</output></legend>
+    <div class="campi">
+      <div class="campo"><label class="etichetta" for="r-p-nome">Ogives (marque/type)</label><input id="r-p-nome" name="p_nome" data-ruolo="nome" type="text" autocomplete="off" placeholder="Description"></div>
+      <div class="campo"><label class="etichetta" for="r-p-peso">Poids (grains)</label><input id="r-p-peso" name="p_peso" type="number" inputmode="decimal" min="0" step="any" autocomplete="off"></div>
+      <div class="campo"><label class="etichetta" for="r-p-prezzo">Prix payé<span class="obbl" aria-hidden="true">*</span></label><div class="con-valuta"><span class="valuta" aria-hidden="true"></span><input id="r-p-prezzo" name="p_prezzo" aria-required="true" data-ruolo="prezzo" type="number" inputmode="decimal" min="0" step="any" autocomplete="off"></div><p class="errore" hidden></p></div>
+      <div class="campo"><label class="etichetta" for="r-p-quanti">Quantité<span class="obbl" aria-hidden="true">*</span></label><input id="r-p-quanti" name="p_quanti" aria-required="true" data-ruolo="quanti" type="number" inputmode="numeric" min="0" step="any" autocomplete="off"><p class="errore" hidden></p></div>
+    </div>
+  </fieldset>
+
+  <fieldset class="componente" data-componente="polvere">
+    <legend><span>Poudre</span><output data-costo>—</output></legend>
+    <div class="campi">
+      <div class="campo"><label class="etichetta" for="r-w-nome">Poudre (marque/type)</label><input id="r-w-nome" name="w_nome" data-ruolo="nome" type="text" autocomplete="off" placeholder="Description"></div>
+      <div class="campo"><label class="etichetta" for="r-w-prezzo">Prix payé<span class="obbl" aria-hidden="true">*</span></label><div class="con-valuta"><span class="valuta" aria-hidden="true"></span><input id="r-w-prezzo" name="w_prezzo" aria-required="true" data-ruolo="prezzo" type="number" inputmode="decimal" min="0" step="any" autocomplete="off"></div><p class="errore" hidden></p></div>
+      <div class="campo">
+        <label class="etichetta" for="r-w-confezione">Poids du conditionnement<span class="obbl" aria-hidden="true">*</span></label>
+        <div class="con-unita">
+          <input id="r-w-confezione" name="w_confezione" aria-required="true" data-ruolo="confezione" type="number" inputmode="decimal" min="0" step="any" autocomplete="off">
+          <fieldset class="unita"><legend class="solo-lettori">Poids du conditionnement</legend>
+            <label><input type="radio" name="w_unita" value="0" checked><span>lb</span></label>
+            <label><input type="radio" name="w_unita" value="1"><span>g</span></label>
+            <label><input type="radio" name="w_unita" value="2"><span>kg</span></label>
+          </fieldset>
+        </div>
+        <p class="errore" hidden></p>
+      </div>
+      <div class="campo"><label class="etichetta" for="r-w-dose">Charge (grains)<span class="obbl" aria-hidden="true">*</span></label><input id="r-w-dose" name="w_dose" aria-required="true" data-ruolo="dose" type="number" inputmode="decimal" min="0" step="any" autocomplete="off"><p class="errore" hidden></p></div>
+    </div>
+  </fieldset>
+
+  <fieldset class="componente facoltativi">
+    <legend><span>Facultatif</span></legend>
+    <div class="campi">
+      <div class="campo">
+        <label class="etichetta" for="r-col">COL/OAL</label>
+        <div class="con-unita">
+          <input id="r-col" name="col" type="number" inputmode="decimal" min="0" step="any" autocomplete="off">
+          <fieldset class="unita"><legend class="solo-lettori">COL/OAL</legend>
+            <label><input type="radio" name="col_unita" value="in" checked><span>in</span></label>
+            <label><input type="radio" name="col_unita" value="mm"><span>mm</span></label>
+          </fieldset>
+        </div>
+      </div>
+      <div class="campo">
+        <label class="etichetta" for="r-velocita">Vitesse initiale</label>
+        <div class="con-unita">
+          <input id="r-velocita" name="velocita" type="number" inputmode="decimal" min="0" step="any" autocomplete="off">
+          <fieldset class="unita"><legend class="solo-lettori">Vitesse initiale</legend>
+            <label><input type="radio" name="unita_velocita" value="fps" checked><span>fps</span></label>
+            <label><input type="radio" name="unita_velocita" value="ms"><span>m/s</span></label>
+          </fieldset>
+        </div>
+      </div>
+      <div class="campo"><span class="etichetta">Facteur de puissance</span><output class="pf" data-pf>—</output></div>
+      <div class="campo largo"><label class="etichetta" for="r-note">Notes</label><textarea id="r-note" name="note" rows="3"></textarea></div>
+    </div>
+  </fieldset>
+  <p class="nota obbligatori" aria-hidden="true"><span class="obbl">*</span> Champ obligatoire</p>
+  <div class="totali" aria-live="polite">
+    <div class="risultato grande"><span class="etichetta">Coût par cartouche</span><output data-totale="1">—</output></div>
+    <div class="risultato"><span class="etichetta">Par boîte de 50</span><output data-totale="50">—</output></div>
+    <div class="risultato"><span class="etichetta">Pour 100</span><output data-totale="100">—</output></div>
+    <div class="risultato"><span class="etichetta">Pour 1 000</span><output data-totale="1000">—</output></div>
+  </div>
+  <p class="stampa"><button type="button" class="pulsante" data-stampa>Imprimer la fiche</button></p>
+  <p class="nota">Vous voulez un PDF ? Dans la fenêtre d'impression, choisissez « Enregistrer au format PDF ».</p>
+  <p class="nota privato">Ce que vous saisissez ici ne quitte pas cette page, et rien n'est enregistré. Fermez la page, et tout disparaît.</p>
+</form>
+<noscript><p class="senza-js">Le calculateur a besoin de JavaScript. Activez-le dans votre navigateur pour l'utiliser.</p></noscript>
+<section class="scheda-carico" aria-hidden="true">
+  <header class="scheda-testa">
+    <img src="/assets/img/aimonx-192.png" alt="" width="40" height="40">
+    <span class="scheda-marchio"><span>AIMONX.app</span><a href="https://aimonx.app/">Rendez-vous sur AIMONX.app</a></span>
+    <span class="scheda-titolo">Fiche de rechargement</span>
+  </header>
+  <h2 data-campo="nome"></h2>
+  <p class="scheda-sotto"><span data-campo="calibro"></span><span>Imprimée le <span data-campo="data"></span></span></p>
+  <table class="scheda-componenti">
+    <thead><tr><th scope="col"></th><th scope="col">Prix payé</th><th scope="col">Quantité</th><th scope="col">Coût par cartouche</th></tr></thead>
+    <tbody>
+      <tr data-riga="bossoli"><th scope="row">Étuis <span class="scheda-nome" data-campo="b_nome"></span></th><td data-campo="b_prezzo"></td><td data-campo="b_quanti"></td><td data-campo="c_bossoli"></td></tr>
+      <tr data-riga="inneschi"><th scope="row">Amorces <span class="scheda-nome" data-campo="i_nome"></span></th><td data-campo="i_prezzo"></td><td data-campo="i_quanti"></td><td data-campo="c_inneschi"></td></tr>
+      <tr data-riga="palle"><th scope="row">Ogives <span class="scheda-nome" data-campo="p_nome"></span></th><td data-campo="p_prezzo"></td><td data-campo="p_quanti"></td><td data-campo="c_palle"></td></tr>
+      <tr data-riga="polvere"><th scope="row">Poudre <span class="scheda-nome" data-campo="w_nome"></span></th><td data-campo="w_prezzo"></td><td data-campo="w_confezione"></td><td data-campo="c_polvere"></td></tr>
+    </tbody>
+  </table>
+  <dl class="scheda-dati">
+    <div data-riga="w_dose"><dt>Charge (grains)</dt><dd data-campo="w_dose"></dd></div>
+    <div data-riga="p_peso"><dt>Poids (grains)</dt><dd data-campo="p_peso"></dd></div>
+    <div data-riga="col"><dt>COL/OAL</dt><dd data-campo="col"></dd></div>
+    <div data-riga="velocita"><dt>Vitesse initiale</dt><dd data-campo="velocita"></dd></div>
+    <div data-riga="pf"><dt>Facteur de puissance</dt><dd data-campo="pf"></dd></div>
+    <div data-riga="note" class="scheda-note"><dt>Notes</dt><dd data-campo="note"></dd></div>
+  </dl>
+  <table class="scheda-totali">
+    <tr><th scope="row">Coût par cartouche</th><td data-campo="t1"></td></tr>
+    <tr><th scope="row">Par boîte de 50</th><td data-campo="t50"></td></tr>
+    <tr><th scope="row">Pour 100</th><td data-campo="t100"></td></tr>
+    <tr><th scope="row">Pour 1 000</th><td data-campo="t1000"></td></tr>
+  </table>
+  <footer class="scheda-piede">
+    <p>Vos chiffres, saisis par vous. Partez toujours des données de rechargement publiées par les fabricants de poudre et d'ogives.</p>
+    <p>Faite avec le calculateur gratuit du coût du rechargement sur aimonx.app</p>
+  </footer>
+</section>
+<h2>Comment se font les calculs</h2>
+      <p>Chaque composant coûte ce que vous l'avez payé, divisé par le nombre de pièces. La poudre demande une étape de plus : son prix, divisé par le poids du conditionnement en grains, multiplié par votre charge. 500 grammes font environ 7 716 grains : un pot de 500 g à 40 € revient à un peu plus d'un demi-centime le grain, et une charge de 4,2 grains coûte environ 2 centimes.</p><h2>Gardez-la, production après production</h2>
+      <p>Cette page fait le calcul une fois. AIMONX garde vos recettes sur votre iPhone, donne à chaque production son propre coût, et ajoute ce que vous tirez à chaque séance au stand : vous savez toujours ce que vous a vraiment coûté une journée de tir.</p>
+      <p>La fiche à imprimer est un outil du site. Dans l'app, vos recettes restent sur votre iPhone, avec chaque production que vous rechargez.</p><h2>Free et Pro</h2>
+      <p>Le calculateur de cette page est gratuit pour tout le monde. Dans l'app, votre première munition rechargée est gratuite, avec sa recette, le coût des composants et les productions ; avec Pro, gardez-en autant que vous voulez. Le calcul du facteur de puissance est gratuit des deux côtés.</p>
+    </article>
+    <p class="scarica">
+      <a href="https://apps.apple.com/fr/app/aimonx/id6794895643" rel="noreferrer">
+        <img src="/assets/img/download-on-the-app-store-black-fr-fr.svg"
+             alt="Télécharger dans l'App Store" width="120" height="40">
+      </a>
+    </p>
+  </main><footer class="chiusa">
+  <div class="piede-testa">
+    <a class="acasa-piede" href="/fr/"><img src="/assets/img/aimonx-48.png" srcset="/assets/img/aimonx-48.png 1x, /assets/img/aimonx-96.png 2x" alt="Accueil AIMONX" width="32" height="32"></a>
+    <p class="motto">AIMONX : l'app journal technique des tireurs sportifs.</p>
+  </div>
+  <div class="colonne">
+      <div class="gruppo-piede">
+        <details class="apri-gruppo"><summary>Fonctionnalités de l'app</summary></details>
+        <p class="intesta" id="piede-funzioni">Fonctionnalités de l'app</p>
+        <ul aria-labelledby="piede-funzioni">
+  <li><a href="/fr/updates/">Nouveautés</a></li>
+  <li><a href="/fr/features/round-count/">Compteur de coups</a></li>
+  <li><a href="/fr/features/maintenance/">Entretien</a></li>
+  <li><a href="/fr/features/custom-lists/">Listes personnalisées</a></li>
+  <li><a href="/fr/features/privacy-and-security/">Vos données</a></li>
+  <li><a href="/fr/features/handloads/">Rechargement</a></li>
+  <li><a href="/fr/features/ammo-and-costs/">Munitions et coûts</a></li>
+  <li><a href="/fr/features/power-factor-calculator/">Calcul du facteur de puissance</a></li>
+  <li><a href="/fr/features/firearm-records/">Fiches des armes</a></li>
+  <li><a href="/fr/features/range-log/">Journal de tir</a></li>
+  <li><a href="/fr/features/">Toutes les fonctionnalités</a></li>
+        </ul>
+      </div>
+      <div class="gruppo-piede solo-titolo">
+        <p class="intesta"><a href="/fr/range-system/">Range System</a></p>
+      </div>
+      <div class="gruppo-piede">
+        <details class="apri-gruppo"><summary>AX Outils et guides</summary></details>
+        <p class="intesta" id="piede-strumenti">AX Outils et guides</p>
+        <ul aria-labelledby="piede-strumenti">
+  <li><a href="/fr/features/power-factor-calculator/">Calcul du facteur de puissance</a></li>
+  <li><a href="/fr/reloading-cost-calculator/" aria-current="page">Calcul du coût du rechargement</a></li>
+  <li><a href="/fr/guides/how-to-choose-a-gun-log-app/">Comment choisir une app de journal de tir</a></li>
+        </ul>
+      </div>
+      <div class="gruppo-piede">
+        <details class="apri-gruppo"><summary>Tarifs</summary></details>
+        <p class="intesta" id="piede-prezzi">Tarifs</p>
+        <ul aria-labelledby="piede-prezzi">
+  <li><a href="/fr/pricing/">Free et Pro</a></li>
+  <li><a href="https://apps.apple.com/fr/app/aimonx/id6794895643" rel="noreferrer">Download</a></li>
+        </ul>
+      </div>
+      <div class="gruppo-piede">
+        <details class="apri-gruppo"><summary>Assistance</summary></details>
+        <p class="intesta" id="piede-assistenza">Assistance</p>
+        <ul aria-labelledby="piede-assistenza">
+  <li><a href="/fr/faq/">FAQ</a></li>
+  <li><a href="/fr/support/">Assistance</a></li>
+  <li><a href="https://apps.apple.com/fr/app/aimonx/id6794895643?action=write-review" rel="noreferrer">Écrire un avis</a></li>
+  <li><a href="/fr/about/">À propos</a></li>
+        </ul>
+      </div>
+      <div class="gruppo-piede">
+        <details class="apri-gruppo"><summary>Langue</summary></details>
+        <p class="intesta" id="piede-lingue">Langue</p>
+        <ul aria-labelledby="piede-lingue">
+  <li><a href="/reloading-cost-calculator/" hreflang="en-US" lang="en-US">English</a></li>
+  <li><a href="/it/reloading-cost-calculator/" hreflang="it" lang="it">Italiano</a></li>
+  <li><a href="/fr/reloading-cost-calculator/" hreflang="fr" lang="fr" aria-current="true">Français</a></li>
+  <li><a href="/es/reloading-cost-calculator/" hreflang="es" lang="es">Español</a></li>
+        </ul>
+      </div>
+  </div>
+  <p class="minuta">Toutes les autres marques appartiennent à leurs propriétaires respectifs.</p>
+  <div class="piede-fondo">
+    <p class="minuta copyright">© 2026 Piermichele Fassio. Apple, le logo Apple, Face ID, iCloud, iPhone, Trousseau, Touch ID et App Store sont des marques d'Apple Inc., déposées aux États-Unis et dans d'autres pays et régions.</p>
+    <ul class="legali">
+  <li><a href="/privacy-policy/">Politique de confidentialité (en anglais)</a></li>
+  <li><a href="/terms/">Conditions d'utilisation (en anglais)</a></li></ul>
+  </div>
+</footer>
+</body>
+</html>
